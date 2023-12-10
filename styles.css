@@ -27,17 +27,21 @@ body{
    align-items: flex-end;
    font-size: 17px;
 
-   margin-bottom: 32px;
+  
   
 
+}
+
+.previous{
+    height: 30px;
 }
 
 
 
 
-.display2{
-    padding-top: 17px;
- height: 70%;
+.current{
+    padding-top: 10px;
+ height: 30px;
  font-size: 22px;
     
 }
@@ -50,9 +54,6 @@ body{
     flex-wrap: wrap;
   
 }
-
-
-
 
 
 
@@ -72,7 +73,12 @@ body{
 
 
 #clear-button,
-#operate-button {
+#equal-button {
     width: 45.5%;
+}
+
+#clear-button,
+#delete-button{
+    background-color: #c91432;
 }
 
